@@ -25,6 +25,9 @@ export default {
       },
       translate: {
         
+      },
+      fontFamily:{
+        newOne:['Roboto Slab']
       }
     },
   },

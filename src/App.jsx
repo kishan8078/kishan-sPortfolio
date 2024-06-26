@@ -9,7 +9,7 @@ import { Element } from "react-scroll"; //react scroll package
 
 function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-black font-newOne">
       <Header />
       <Element name="hero" />
       <Hero />

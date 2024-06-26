@@ -9,7 +9,6 @@ const Hero = () => {
         className=" bg-fixed bg-cover bg-center h-screen text-white "
         style={{
           backgroundImage: `url(${nature})`,
-          opacity: 2,
         }}
       >
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 h-[85vh] ">
@@ -32,9 +31,8 @@ const Hero = () => {
             </h2>
 
             <p className="text-2xl font-bold text-white bg-black  md:text-white md:text-4xl text-center my-10 ">
-              I'm a versatile full-stack{" "}
-              <span className="bg-black">Web Developer</span>, transforming
-              ideas into stunning and functional web applications.
+              I'm a versatile full-stack Web Developer, transforming ideas into
+              stunning and functional web applications.
             </p>
 
             <div className="flex md:flex-row flex-col ">
